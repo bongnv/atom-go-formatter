@@ -9,3 +9,5 @@ declare module 'atom' {
 }
 
 type atom$TextEditor = any;
+
+type childProcess$spawnSyncOpts = child_process$spawnSyncOpts;
