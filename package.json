@@ -4,7 +4,7 @@
   "version": "0.0.0",
   "description": "A plugin to format Go files for Atom",
   "keywords": [],
-  "repository": "https://github.com/atom/atom-gofmt",
+  "repository": "https://github.com/bongnv/atom-go-formatter",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
