@@ -1,6 +1,6 @@
 # atom-go-formatter
 
-TODO
+A plugin to format Go files for Atom.
 
 Example configuration:
 ```
