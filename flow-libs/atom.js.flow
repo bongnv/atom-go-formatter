@@ -4,8 +4,11 @@ declare var atom: any;
 
 declare module 'atom' {
   declare var CompositeDisposable: any;
-  declare var BufferedProcess: any;
-  declare var TextEditor: any;
 }
 
-type atom$TextEditor = any;
+declare class atom$TextEditor {
+  getBuffer(): any;
+  getGrammar(): any;
+  getText(): any;
+  getPath(): any;
+};
