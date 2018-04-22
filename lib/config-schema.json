@@ -1,0 +1,38 @@
+{
+  "formatTools": {
+    "title": "Format Tools",
+    "description": "List of supported format tools: goimports, goreturns or gofmt",
+    "type": "array",
+    "items": {
+      "type": "object",
+      "properties": {
+        "name": {
+          "type": "string"
+        },
+        "cmd": {
+          "type": "string"
+        },
+        "args": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "onSave": {
+          "type": "boolean"
+        }
+      }
+    },
+    "default":  [
+      {
+        "name": "goreturns",
+        "cmd": "goreturns",
+        "args": [
+          "-e"
+        ],
+        "onSave": true
+      }
+    ],
+    "order": 1
+  }
+}

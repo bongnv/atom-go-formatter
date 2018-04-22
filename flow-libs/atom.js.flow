@@ -1,0 +1,11 @@
+// The items in this declaration are available off of `import 'atom'`.
+// TODO: proper definition of Atom APIs
+declare var atom: any;
+
+declare module 'atom' {
+  declare var CompositeDisposable: any;
+  declare var BufferedProcess: any;
+  declare var TextEditor: any;
+}
+
+type atom$TextEditor = any;

@@ -1,0 +1,7 @@
+{
+  "plugins": [
+    ["add-module-exports", {}],
+    ["transform-es2015-modules-commonjs", {"strictMode": false}],
+    ["transform-flow-strip-types", {}],
+  ]
+}
