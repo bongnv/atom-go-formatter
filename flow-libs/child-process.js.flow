@@ -1,0 +1,2 @@
+// This file defines APIs for child_process module.
+type childProcess$spawnSyncOpts = child_process$spawnSyncOpts;

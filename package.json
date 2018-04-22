@@ -1,6 +1,6 @@
 {
   "name": "gofmt",
-  "main": "./lib/atom-gofmt",
+  "main": "./lib/main",
   "version": "0.0.1",
   "description": "A short description of your package",
   "keywords": [],
