@@ -6,8 +6,18 @@
   "keywords": [],
   "repository": "https://github.com/bongnv/atom-go-formatter",
   "license": "MIT",
+  "scripts": {
+    "lint": "tslint --project ."
+  },
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
+  },
+  "consumedServices": {
+    "linter-indie": {
+      "versions": {
+        "2.0.0": "consumeIndie"
+      }
+    }
   },
   "atomTranspilers": [
     {
@@ -22,9 +32,13 @@
   ],
   "dependencies": {
     "@types/atom": "^1.26.0",
+    "atom-package-deps": "^4.6.2",
     "atom-ts-transpiler": "^1.5.2",
     "npm": "^5.8.0",
     "typescript": "^2.8.3"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "atom-linter": "^10.0.0",
+    "tslint": "^5.9.1"
+  }
 }
