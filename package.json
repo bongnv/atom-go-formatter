@@ -34,7 +34,7 @@
     "@types/atom": "^1.26.0",
     "atom-package-deps": "^4.6.2",
     "atom-ts-transpiler": "^1.5.2",
-    "npm": "^5.8.0",
+    "npm": "^6.0.0",
     "typescript": "^2.8.3"
   },
   "devDependencies": {
